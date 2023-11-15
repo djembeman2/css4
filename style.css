@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+}
+.strawberries h1{
+  color: red;
+  border-style: inset;
+}
+
+/* Select all h1 tags that are contained in the header */
+header h1 {
+  color: gold;
+ border-style:groove;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+/* Select all img tags that are contained in element with id hero-div */
+#hero-div img {
+  width: 50%;
+  
+}
+
+/* Select all img tags that are contained in element article */
+article img {
+  width: 200px;
+  padding: 5px;
+  float: left;
+}
+
